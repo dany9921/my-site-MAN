@@ -24,8 +24,12 @@
       }
    </style>
 <!-- ------------------------ -->
-<!---------  -------->	
-
+<!---------CLock  -------->	
+<script src ="js/clock1.js"></script>
+<script>
+	window.onload = function(){
+	setInterval(clockPainting, 1000);}
+	</script>
 <!-- ------------------------ -->
   </HEAD>
   <BODY background="images/bg.jpg">
@@ -40,9 +44,9 @@
         <tr>
 			<td colspan="2">
 		<!-- 04  Горизонтальне меню -->
-			    <font size="3"><b>
-				<a href="#">Наші послуги</a>&nbsp;&nbsp;
-				<a href="#">Про нас</a>&nbsp;&nbsp;
+			    <font size="2"><b>
+				<a href="#">Перевірити свої знання</a>&nbsp;&nbsp;
+				<!--<a href="#">Про </a>&nbsp;&nbsp;-->
 				<a href="#">Фотогалерея</a>&nbsp;&nbsp;
 				</b></font>
                 <!-- ----------------------- -->
